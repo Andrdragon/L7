@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cart</title>
+	<script src="../JQuery/jquery-3.3.1.min.js"></script>
+	<style>
+		.goods {
+			border: 2px solid #338FAD;
+			width: 70%;
+			margin: 0 auto;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+		}
+		.goods-item {
+			text-align: center;
+			width: 15%;
+			border: 1px solid #0B5C76;
+			margin: 0 20px;
+			padding: 10px;
+		}
+		.goods-item__picture img{
+			width: 80%;
+		}
+	</style>
+	<script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="goods">
+		<div class="goods-item">
+			<div class="goods-item-about">
+				<div class="goods-item__name">Яблоко</div>
+				<div class="goods-item__picture"><img src="https://static.agcanada.com/wp-content/uploads/sites/5/2018/11/apple_GettyImages186843005_cmyk.jpg" alt=""></div>
+				<div class="goods-item__cost"><span class="goods-item__cost-title">Цена:</span><span class="goods-item__cost-price">10</span></div>
+				<div class="goods-item__count"><span class="goods-item__count-title">На складе:</span><span class="goods-item__count-number">23</span></div>
+			</div>
+			<div class="goods-item-buy">
+				<button class="plus">+</button>
+				<button class="sum">0</button>
+				<button class="minus">-</button>
+			</div>
+		</div>
+		<div class="goods-item">
+			<div class="goods-item-about">
+				<div class="goods-item__name">Персик</div>
+				<div class="goods-item__picture"><img src="https://freshmart.com.ua/images/232/mainimg/de630a66e0117978987ce515f7265a9a_big.jpeg" alt=""></div>
+				<div class="goods-item__cost"><span class="goods-item__cost-title">Цена:</span><span class="goods-item__cost-price">15</span></div>
+				<div class="goods-item__count"><span class="goods-item__count-title">На складе:</span><span class="goods-item__count-number">27</span></div>
+			</div>
+			<div class="goods-item-buy">
+				<button class="plus">+</button>
+				<button class="sum">0</button>
+				<button class="minus">-</button>
+			</div>
+		</div>
+		<div class="goods-item">
+			<div class="goods-item-about">
+				<div class="goods-item__name">Груша</div>
+				<div class="goods-item__picture"><img src="https://freshmart.com.ua/images/455/mainimg/3555749e25199caf73802ab26a0c2ed7_big.jpeg" alt=""></div>
+				<div class="goods-item__cost"><span class="goods-item__cost-title">Цена:</span><span class="goods-item__cost-price">20</span></div>
+				<div class="goods-item__count"><span class="goods-item__count-title">На складе:</span><span class="goods-item__count-number">13</span></div>
+			</div>
+			<div class="goods-item-buy">
+				<button class="plus">+</button>
+				<button class="sum">0</button>
+				<button class="minus">-</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="cart.js"></script>
+</body>
+</html>
